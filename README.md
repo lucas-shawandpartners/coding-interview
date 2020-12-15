@@ -21,6 +21,14 @@ end procedure
 2. You have to implement a restful API. This API must expose an endpoint that receives an array in the body of the POST request and applies the sort function implemented in the last exercise. The code must be defined into the `src/server.js` file.
 
 3. Implement a client-side application where a user can declare an array and POST it to the server to get it ordered. 
+ - running:
 
-
+```
+$ npm install
+$ node ./src/server.js
+```
+  - input must be comma separeted as following:
+```
+1,2,3,4,5,6
+```
 
